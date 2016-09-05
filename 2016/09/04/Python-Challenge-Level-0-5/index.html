@@ -1,0 +1,1055 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+  <meta name="google-site-verification" content="ktepKWOz06asBBgvs-SXd0a9uq1t2leeFyRdzD5Hdxg" />
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.0." rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="Python Challenge,python," />
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico?v=5.0." />
+
+
+
+
+
+
+<meta name="description" content="简介Python Challenge是一个过关式的解谜站点，使用的是经典在线解谜站点Not Pr0n的模式：根据提示找出下一关的网页地址。和Not Pr0n不同的是，在每一关里你都需要编写程序来寻找答案。虽然这个解谜站点的名字叫做Python Challenge，但事实上你可以使用任意一种程序语言（除了少数一两关可能会用到点Python的知识），目前总共有33关。挑战地址: Python Chal">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Python Challenge (Level 0-5)">
+<meta property="og:url" content="http://zhugezuo.xyz/2016/09/04/Python-Challenge-Level-0-5/index.html">
+<meta property="og:site_name" content="诸葛佐的博客">
+<meta property="og:description" content="简介Python Challenge是一个过关式的解谜站点，使用的是经典在线解谜站点Not Pr0n的模式：根据提示找出下一关的网页地址。和Not Pr0n不同的是，在每一关里你都需要编写程序来寻找答案。虽然这个解谜站点的名字叫做Python Challenge，但事实上你可以使用任意一种程序语言（除了少数一两关可能会用到点Python的知识），目前总共有33关。挑战地址: Python Chal">
+<meta property="og:image" content="http://i2.buimg.com/567571/c23a3e912ec342fb.png">
+<meta property="og:updated_time" content="2016-09-05T04:47:18.772Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Python Challenge (Level 0-5)">
+<meta name="twitter:description" content="简介Python Challenge是一个过关式的解谜站点，使用的是经典在线解谜站点Not Pr0n的模式：根据提示找出下一关的网页地址。和Not Pr0n不同的是，在每一关里你都需要编写程序来寻找答案。虽然这个解谜站点的名字叫做Python Challenge，但事实上你可以使用任意一种程序语言（除了少数一两关可能会用到点Python的知识），目前总共有33关。挑战地址: Python Chal">
+<meta name="twitter:image" content="http://i2.buimg.com/567571/c23a3e912ec342fb.png">
+
+
+
+<script type="text/javascript" id="hexo.configuration">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    scheme: 'Mist',
+    sidebar: {"position":"left","display":"post"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: 6325660350012196000,
+      author: '博主'
+    }
+  };
+</script>
+
+  <title> Python Challenge (Level 0-5) | 诸葛佐的博客 </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', '83633076-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?a5b0fd53c69c787a4f06940c79bf230a";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">诸葛佐的博客</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+  <p class="site-subtitle"></p>
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="#" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup">
+ <span class="search-icon fa fa-search"></span>
+ <input type="text" id="local-search-input">
+ <div id="local-search-result"></div>
+ <span class="popup-btn-close">close</span>
+</div>
+
+
+    </div>
+  
+</nav>
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                Python Challenge (Level 0-5)
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-09-04T09:19:11+08:00" content="2016-09-04">
+              2016-09-04
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/Python-Challenge/" itemprop="url" rel="index">
+                    <span itemprop="name">Python Challenge</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/09/04/Python-Challenge-Level-0-5/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/09/04/Python-Challenge-Level-0-5/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+             <span id="/2016/09/04/Python-Challenge-Level-0-5/" class="leancloud_visitors" data-flag-title="Python Challenge (Level 0-5)">
+               &nbsp; | &nbsp;
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               <span class="post-meta-item-text">阅读次数 </span>
+               <span class="leancloud-visitors-count"></span>
+              </span>
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>Python Challenge是一个过关式的解谜站点，使用的是经典在线解谜站点Not Pr0n的模式：根据提示找出下一关的网页地址。和Not Pr0n不同的是，在每一关里你都需要编写程序来寻找答案。虽然这个解谜站点的名字叫做Python Challenge，但事实上你可以使用任意一种程序语言（除了少数一两关可能会用到点Python的知识），目前总共有33关。<br><strong>挑战地址:</strong> <a href="http://www.pythonchallenge.com/" target="_blank" rel="external">Python Challenge</a><br><a id="more"></a> </p>
+<h1 id="第0关"><a href="#第0关" class="headerlink" title="第0关"></a><a href="http://www.pythonchallenge.com/pc/def/0.html" target="_blank" rel="external">第0关</a></h1><p>图片上面写着2<sup>38</sup>，用python可以轻松求解，结果为：274877906944。替换掉地址栏的0，得到下一关地址:<br><a href="http://www.pythonchallenge.com/pc/def/274877906944.html" target="_blank" rel="external">http://www.pythonchallenge.com/pc/def/274877906944.html</a></p>
+<h1 id="第1关"><a href="#第1关" class="headerlink" title="第1关"></a><a href="http://www.pythonchallenge.com/pc/def/274877906944.html" target="_blank" rel="external">第1关</a></h1><p>从图中的<strong>K-&gt;M</strong>,<strong>O-&gt;Q</strong>,<strong>E-&gt;G</strong> 容易看出，把字母往后加二得到相应的字母，Y和Z应该是分别对应A和B。接下来对网页下方的字符串进行处理：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> string</div><div class="line">text = <span class="string">"# 省略字符串"</span></div><div class="line">table = text.maketrans(string.ascii_lowercase,string.ascii_lowercase[<span class="number">2</span>:]+string.ascii_lowercase[:<span class="number">2</span>])</div><div class="line">print(text.translate(table))</div></pre></td></tr></table></figure>
+<p>在上面的代码中，我们用到了maketrans()方法创建字符映射的转换表，对字符串进行处理，maketrans()方法语法：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">str.maketrans(intab, outtab)</div></pre></td></tr></table></figure>
+<p><strong>intab</strong> – 字符串中要替代的字符组成的字符串。<br><strong>outtab</strong> – 相应的映射字符的字符串。<br>上述代码的打印结果为“i hope you didnt translate it by hand. thats what computers are for. doing it in by hand is inefficient and that’s why this text is so long. using string.maketrans() is recommended. now apply on the url.”<br>再对地址栏中的”map”进行转换，得到下一关地址：<a href="http://www.pythonchallenge.com/pc/def/ocr.html" target="_blank" rel="external">http://www.pythonchallenge.com/pc/def/ocr.html</a></p>
+<h1 id="第2关"><a href="#第2关" class="headerlink" title="第2关"></a><a href="http://www.pythonchallenge.com/pc/def/ocr.html" target="_blank" rel="external">第2关</a></h1><p>题目提示“MAYBE they are in the page source”。那么我们右键查看网页源码，注释中指出“find rare characters in the mess below”，让我们找出出现次数较少的字符，那就直接数出每个字符的出现次数并排序：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">str = <span class="string">"""</span></div><div class="line"># 省略字符串</div><div class="line">"""</div><div class="line">s = set(str)</div><div class="line">d = &#123;&#125;</div><div class="line"><span class="keyword">for</span> i <span class="keyword">in</span> s:</div><div class="line">    d[i]=str.count(i)</div><div class="line">print(sorted(d.items(), key=<span class="keyword">lambda</span> x:x[<span class="number">1</span>]))</div></pre></td></tr></table></figure>
+<p>可以看出出现次数最少的字母为q,t,a,y,e,i,u,l，正好可以拼出单词“equality”，得到下一关地址：<a href="http://www.pythonchallenge.com/pc/def/equality.html" target="_blank" rel="external">http://www.pythonchallenge.com/pc/def/equality.html</a></p>
+<h1 id="第3关"><a href="#第3关" class="headerlink" title="第3关"></a><a href="http://www.pythonchallenge.com/pc/def/equality.html" target="_blank" rel="external">第3关</a></h1><p>题目强调了“EXACTLY”，一个小写字母被<strong>正好</strong>三个大写字母包围，不能多也不能少，依旧是查看网页源码获得字符串，可以用正则表达式进行匹配：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> re</div><div class="line">text = <span class="string">"""</span></div><div class="line"># 省略字符串</div><div class="line">""" </div><div class="line">print(<span class="string">""</span>.join(re.findall(<span class="string">'[^A-Z][A-Z]&#123;3&#125;([a-z])[A-Z]&#123;3&#125;[^A-Z]'</span>, text)))</div></pre></td></tr></table></figure>
+<p>这里用到了正则表达式，可以在<a href="http://www.runoob.com/python/python-reg-expressions.html" target="_blank" rel="external">菜鸟教程</a>学习<br>执行结果为：linkedlist，得到下一关地址：<a href="http://www.pythonchallenge.com/pc/def/linkedlist.html" target="_blank" rel="external">http://www.pythonchallenge.com/pc/def/linkedlist.html</a></p>
+<h1 id="第4关"><a href="#第4关" class="headerlink" title="第4关"></a><a href="http://www.pythonchallenge.com/pc/def/linkedlist.html" target="_blank" rel="external">第4关</a></h1><p>将网址上的”.html”改为”.php”，点击图片得到提示“and the next nothing is 44827”，将网址中的”12345”替换为“44827”，很明显，是让你一路替换下去。什么时候停止呢？源码中提示“400 times is more than enough”。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">from</span> urllib <span class="keyword">import</span> request</div><div class="line"><span class="keyword">import</span> re</div><div class="line">num = <span class="number">12345</span></div><div class="line"><span class="keyword">for</span> i <span class="keyword">in</span> range(<span class="number">400</span>):</div><div class="line">    u = request.urlopen(<span class="string">'http://www.pythonchallenge.com/pc/def/linkedlist.php?nothing=%s'</span>% num)</div><div class="line">    text = u.read().decode(<span class="string">'utf8'</span>)</div><div class="line">    <span class="keyword">try</span>:</div><div class="line">        num = re.search(<span class="string">'and the next nothing is ([0-9]*)'</span>,text).group(<span class="number">1</span>)</div><div class="line">    <span class="keyword">except</span>:</div><div class="line">        print(text)</div><div class="line">        <span class="keyword">break</span></div><div class="line">    print(num)</div></pre></td></tr></table></figure>
+<p>执行得到数字“16044”，页面上提示“Yes. Divide by two and keep going”，将上面的”12345”替换为”8022”继续执行，得到下一关地址：<a href="http://www.pythonchallenge.com/pc/def/peak.html" target="_blank" rel="external">http://www.pythonchallenge.com/pc/def/peak.html</a><br><strong>注意：</strong>我使用的是python3，如果是python2，用法略有不同，具体请自行搜索</p>
+<h1 id="第5关"><a href="#第5关" class="headerlink" title="第5关"></a><a href="http://www.pythonchallenge.com/pc/def/peak.html" target="_blank" rel="external">第5关</a></h1><p>提示：”pronounce it”，“peak hell”读音像什么呢？像python自带的模块pickle，那么就用pickle处理<a href="http://www.pythonchallenge.com/pc/def/banner.p" target="_blank" rel="external">banner.p</a>。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> pickle</div><div class="line">text = <span class="string">"""</span></div><div class="line"># 省略字符串</div><div class="line">"""</div><div class="line">data = pickle.loads(text.encode(<span class="string">'utf8'</span>))</div><div class="line"><span class="keyword">for</span> line <span class="keyword">in</span> data:</div><div class="line">    print(<span class="string">''</span>.join(map(<span class="keyword">lambda</span> x: x[<span class="number">0</span>] * x[<span class="number">1</span>], line)))</div></pre></td></tr></table></figure>
+<p>先用pickle模块获取到列表[[(‘ ‘, 95)], [(‘ ‘, 14), (‘#’, 5), ···]，很明显数字表示前面字母的重复次数，按照该列表进行绘图如下：<br><img src="http://i2.buimg.com/567571/c23a3e912ec342fb.png" alt=""><br>拼出了单词“channel”，得到下一关地址：<a href="http://www.pythonchallenge.com/pc/def/channel.html" target="_blank" rel="external">http://www.pythonchallenge.com/pc/def/channel.html</a></p>
+
+      
+    </div>
+
+    <div>
+      
+        
+<div id="wechat_subscriber" style="display: block； padding: 10px 0; margin: 20px auto; width: 100%; text-align: center">
+    <img id="wechat_subscriber_qcode" src="/images/wechat-qcode.jpg" alt="诸葛佐 wechat" style="width: 200px; max-width: 100%;"/>
+    <div>欢迎您扫一扫上面的微信，加我好友！</div>
+</div>
+
+      
+    </div>
+
+    <div>
+      
+        
+  <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+    <div>坚持原创技术分享，您的支持将鼓励我继续创作！</div>
+    <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+      <span>赏</span>
+    </button>
+    <div id="QR" style="display: none;">
+      
+        <div id="wechat" style="display: inline-block">
+          <img id="wechat_qr" src="/images/wechatpay.jpg" alt="诸葛佐 WeChat Pay"/>
+          <p>微信打赏</p>
+        </div>
+      
+      
+        <div id="alipay" style="display: inline-block">
+          <img id="alipay_qr" src="/images/alipay.jpg" alt="诸葛佐 Alipay"/>
+          <p>支付宝打赏</p>
+        </div>
+      
+    </div>
+  </div>
+
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Python-Challenge/" rel="tag">#Python Challenge</a>
+          
+            <a href="/tags/python/" rel="tag">#python</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2016/09/04/Python-Challenge-Level-6-10/" rel="prev" title="Python Challenge (Level 6-10)">
+                Python Challenge (Level 6-10) <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+        <!-- JiaThis Button BEGIN -->
+<div class="jiathis_style">
+  <a class="jiathis_button_tsina"></a>
+  <a class="jiathis_button_tqq"></a>
+  <a class="jiathis_button_weixin"></a>
+  <a class="jiathis_button_cqq"></a>
+  <a class="jiathis_button_douban"></a>
+  <a class="jiathis_button_renren"></a>
+  <a class="jiathis_button_qzone"></a>
+  <a class="jiathis_button_kaixin001"></a>
+  <a class="jiathis_button_copy"></a>
+  <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank"></a>
+  <a class="jiathis_counter_style"></a>
+</div>
+<script type="text/javascript" >
+  var jiathis_config={
+    hideMore:false
+  }
+</script>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+<!-- JiaThis Button END -->
+
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="2016/09/04/Python-Challenge-Level-0-5/"
+           data-title="Python Challenge (Level 0-5)" data-url="http://zhugezuo.xyz/2016/09/04/Python-Challenge-Level-0-5/">
+      </div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel ">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/avatar.jpg"
+               alt="诸葛佐" />
+          <p class="site-author-name" itemprop="name">诸葛佐</p>
+          <p class="site-description motion-element" itemprop="description"></p>
+        </div>
+        <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archives">
+              <span class="site-state-item-count">2</span>
+              <span class="site-state-item-name">日志</span>
+            </a>
+          </div>
+
+          
+            <div class="site-state-item site-state-categories">
+              <a href="/categories">
+                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="mailto:zhugezuo@foxmail.com" target="_blank" title="Email">
+                  
+                    <i class="fa fa-fw fa-envelope-o"></i>
+                  
+                  Email
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/zhugezuo" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://twitter.com/zhugezuo" target="_blank" title="Twitter">
+                  
+                    <i class="fa fa-fw fa-twitter"></i>
+                  
+                  Twitter
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://www.facebook.com/zhugezuo" target="_blank" title="Facebook">
+                  
+                    <i class="fa fa-fw fa-facebook-f"></i>
+                  
+                  Facebook
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+          <div class="links-of-blogroll motion-element links-of-blogroll-inline">
+            <div class="links-of-blogroll-title">
+              <i class="fa  fa-fw fa-globe"></i>
+              友情链接
+            </div>
+            <ul class="links-of-blogroll-list">
+              
+                <li class="links-of-blogroll-item">
+                  <a href="https://hexo.io/" title="Hexo" target="_blank">Hexo</a>
+                </li>
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://theme-next.iissnan.com/" title="NexT" target="_blank">NexT</a>
+                </li>
+              
+            </ul>
+          </div>
+        
+
+      </section>
+
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#简介"><span class="nav-number">1.</span> <span class="nav-text">简介</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#第0关"><span class="nav-number">2.</span> <span class="nav-text">第0关</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#第1关"><span class="nav-number">3.</span> <span class="nav-text">第1关</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#第2关"><span class="nav-number">4.</span> <span class="nav-text">第2关</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#第3关"><span class="nav-number">5.</span> <span class="nav-text">第3关</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#第4关"><span class="nav-number">6.</span> <span class="nav-text">第4关</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#第5关"><span class="nav-number">7.</span> <span class="nav-text">第5关</span></a></li></ol></div>
+            
+          </div>
+        </section>
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2016</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">诸葛佐</span>
+</div>
+
+<div class="powered-by">
+  由 <a class="theme-link" href="http://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Mist
+  </a>
+</div>
+
+        
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.0."></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.0."></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0."></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0."></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.0."></script>
+
+
+
+  
+
+  
+    
+  
+
+  <script type="text/javascript">
+    var duoshuoQuery = {short_name:"zhugezuo"};
+    (function() {
+      var ds = document.createElement('script');
+      ds.type = 'text/javascript';ds.async = true;
+      ds.id = 'duoshuo-script';
+      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+      ds.charset = 'UTF-8';
+      (document.getElementsByTagName('head')[0]
+      || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+  </script>
+
+  
+    
+      
+      <script src="/vendors/ua-parser-js/dist/ua-parser.min.js?v=0.7.9"></script>
+      <script src="/js/src/hook-duoshuo.js"></script>
+    
+  
+
+
+
+
+
+  
+  
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length == 0) {
+       search_path = "search.xml";
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    function proceedsearch() {
+      $("body").append('<div class="popoverlay">').css('overflow', 'hidden');
+      $('.popup').toggle();
+
+    }
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+    'use strict';
+    $.ajax({
+        url: path,
+        dataType: "xml",
+        async: true,
+        success: function( xmlResponse ) {
+            // get the contents from search data
+            isfetched = true;
+            $('.popup').detach().appendTo('.header-inner');
+            var datas = $( "entry", xmlResponse ).map(function() {
+                return {
+                    title: $( "title", this ).text(),
+                    content: $("content",this).text(),
+                    url: $( "url" , this).text()
+                };
+            }).get();
+            var $input = document.getElementById(search_id);
+            var $resultContent = document.getElementById(content_id);
+            $input.addEventListener('input', function(){
+                var matchcounts = 0;
+                var str='<ul class=\"search-result-list\">';                
+                var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+                $resultContent.innerHTML = "";
+                if (this.value.trim().length > 1) {
+                // perform local searching
+                datas.forEach(function(data) {
+                    var isMatch = true;
+                    var content_index = [];
+                    var data_title = data.title.trim().toLowerCase();
+                    var data_content = data.content.trim().replace(/<[^>]+>/g,"").toLowerCase();
+                    var data_url = data.url;
+                    var index_title = -1;
+                    var index_content = -1;
+                    var first_occur = -1;
+                    // only match artiles with not empty titles and contents
+                    if(data_title != '' && data_content != '') {
+                        keywords.forEach(function(keyword, i) {
+                            index_title = data_title.indexOf(keyword);
+                            index_content = data_content.indexOf(keyword);
+                            if( index_title < 0 && index_content < 0 ){
+                                isMatch = false;
+                            } else {
+                                if (index_content < 0) {
+                                    index_content = 0;
+                                }
+                                if (i == 0) {
+                                    first_occur = index_content;
+                                }
+                            }
+                        });
+                    }
+                    // show search results
+                    if (isMatch) {
+                        matchcounts += 1;
+                        str += "<li><a href='"+ data_url +"' class='search-result-title'>"+ data_title +"</a>";
+                        var content = data.content.trim().replace(/<[^>]+>/g,"");
+                        if (first_occur >= 0) {
+                            // cut out 100 characters
+                            var start = first_occur - 20;
+                            var end = first_occur + 80;
+                            if(start < 0){
+                                start = 0;
+                            }
+                            if(start == 0){
+                                end = 50;
+                            }
+                            if(end > content.length){
+                                end = content.length;
+                            }
+                            var match_content = content.substring(start, end);
+                            // highlight all keywords
+                            keywords.forEach(function(keyword){
+                                var regS = new RegExp(keyword, "gi");
+                                match_content = match_content.replace(regS, "<b class=\"search-keyword\">"+keyword+"</b>");
+                            });
+                            
+                            str += "<p class=\"search-result\">" + match_content +"...</p>"
+                        }
+                        str += "</li>";
+                    }
+                })};
+                str += "</ul>";
+                if (matchcounts == 0) { str = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>' }
+                if (keywords == "") { str = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>' }
+                $resultContent.innerHTML = str;
+            });
+            proceedsearch();
+        }
+    });}
+
+    // handle and trigger popup window;
+    $('.popup-trigger').mousedown(function(e) {
+      e.stopPropagation();
+      if (isfetched == false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+
+    });
+
+    $('.popup-btn-close').click(function(e){
+      $('.popup').hide();
+      $(".popoverlay").remove();
+      $('body').css('overflow', '');
+    });
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+  </script>
+
+  
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+  </script>
+
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+      var all = MathJax.Hub.getAllJax(), i;
+      for (i=0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+      }
+    });
+  </script>
+  <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+  
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
+  <script>AV.initialize("9OBlfnoT9oX5YT5mCbR7C19P-gzGzoHsz", "7L3mQafgNBTUS1XwScpGlJ78");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
+
+  
+
+</body>
+</html>
