@@ -88,7 +88,7 @@
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="诸葛佐的博客">
-<meta property="og:url" content="http://zhugezuo.xyz/tags/Python/index.html">
+<meta property="og:url" content="http://zhugezuo.xyz/tags/python/index.html">
 <meta property="og:site_name" content="诸葛佐的博客">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="诸葛佐的博客">
@@ -109,7 +109,7 @@
   };
 </script>
 
-  <title> 标签: Python | 诸葛佐的博客 </title>
+  <title> 标签: python | 诸葛佐的博客 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -273,7 +273,7 @@
   <div id="posts" class="posts-collapse">
     <div class="collection-title">
       <h2 >
-        Python
+        python
         <small>标签</small>
       </h2>
     </div>
@@ -286,9 +286,9 @@
 
       <h1 class="post-title">
         
-            <a class="post-title-link" href="/2016/09/06/如何实现python2和python3的共存/" itemprop="url">
+            <a class="post-title-link" href="/2016/09/04/Python-Challenge-Level-6-10/" itemprop="url">
               
-                <span itemprop="name">如何实现python2和python3的共存</span>
+                <span itemprop="name">Python Challenge (Level 6-10)</span>
               
             </a>
         
@@ -296,9 +296,37 @@
 
       <div class="post-meta">
         <time class="post-time" itemprop="dateCreated"
-              datetime="2016-09-06T14:04:25+08:00"
-              content="2016-09-06" >
-          09-06
+              datetime="2016-09-04T20:18:24+08:00"
+              content="2016-09-04" >
+          09-04
+        </time>
+      </div>
+
+    </header>
+  </article>
+
+
+    
+      
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <h1 class="post-title">
+        
+            <a class="post-title-link" href="/2016/09/04/Python-Challenge-Level-0-5/" itemprop="url">
+              
+                <span itemprop="name">Python Challenge (Level 0-5)</span>
+              
+            </a>
+        
+      </h1>
+
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated"
+              datetime="2016-09-04T09:19:11+08:00"
+              content="2016-09-04" >
+          09-04
         </time>
       </div>
 
@@ -807,36 +835,6 @@
               success: function(newcounter) {
                 var $element = $(document.getElementById(url));
                 $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
-              },
-              error: function(newcounter, error) {
-                console.log('Failed to create');
-              }
-            });
-          }
-        },
-        error: function(error) {
-          console.log('Error:' + error.code + " " + error.message);
-        }
-      });
-    }
-
-    $(function() {
-      var Counter = AV.Object.extend("Counter");
-      if ($('.leancloud_visitors').length == 1) {
-        addCount(Counter);
-      } else if ($('.post-title-link').length > 1) {
-        showTime(Counter);
-      }
-    });
-  </script>
-
-
-
-  
-
-</body>
-</html>
-element.find('.leancloud-visitors-count').text(newcounter.get('time'));
               },
               error: function(newcounter, error) {
                 console.log('Failed to create');
