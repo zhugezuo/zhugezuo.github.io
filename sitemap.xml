@@ -2,16 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://zhugezuo.xyz/2016/09/04/Python-Challenge-Level-6-10/</loc>
+    <loc>http://zhugezuo.xyz/2016/09/06/%E5%A6%82%E4%BD%95%E5%9C%A8%E7%94%B5%E8%84%91%E4%B8%8A%E5%90%8C%E6%97%B6%E5%AE%89%E8%A3%85python2%E5%92%8Cpython3/</loc>
     
-    <lastmod>2016-09-05T05:35:01.723Z</lastmod>
+    <lastmod>2016-09-06T08:24:23.079Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://zhugezuo.xyz/2016/09/04/Python-Challenge-Level-0-5/</loc>
     
-    <lastmod>2016-09-05T04:47:18.772Z</lastmod>
+    <lastmod>2016-09-06T00:59:46.303Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zhugezuo.xyz/2016/09/04/Python-Challenge-Level-6-10/</loc>
+    
+    <lastmod>2016-09-05T05:35:01.723Z</lastmod>
     
   </url>
   
@@ -23,14 +30,14 @@
   </url>
   
   <url>
-    <loc>http://zhugezuo.xyz/about/index.html</loc>
+    <loc>http://zhugezuo.xyz/categories/index.html</loc>
     
     <lastmod>2016-09-04T23:09:38.100Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://zhugezuo.xyz/categories/index.html</loc>
+    <loc>http://zhugezuo.xyz/about/index.html</loc>
     
     <lastmod>2016-09-04T23:09:38.100Z</lastmod>
     

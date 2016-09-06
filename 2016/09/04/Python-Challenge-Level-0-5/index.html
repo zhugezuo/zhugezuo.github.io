@@ -93,7 +93,7 @@
 <meta property="og:site_name" content="诸葛佐的博客">
 <meta property="og:description" content="简介Python Challenge是一个过关式的解谜站点，使用的是经典在线解谜站点Not Pr0n的模式：根据提示找出下一关的网页地址。和Not Pr0n不同的是，在每一关里你都需要编写程序来寻找答案。虽然这个解谜站点的名字叫做Python Challenge，但事实上你可以使用任意一种程序语言（除了少数一两关可能会用到点Python的知识），目前总共有33关。挑战地址: Python Chal">
 <meta property="og:image" content="http://i2.buimg.com/567571/c23a3e912ec342fb.png">
-<meta property="og:updated_time" content="2016-09-05T04:47:18.772Z">
+<meta property="og:updated_time" content="2016-09-06T00:59:46.303Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Python Challenge (Level 0-5)">
 <meta name="twitter:description" content="简介Python Challenge是一个过关式的解谜站点，使用的是经典在线解谜站点Not Pr0n的模式：根据提示找出下一关的网页地址。和Not Pr0n不同的是，在每一关里你都需要编写程序来寻找答案。虽然这个解谜站点的名字叫做Python Challenge，但事实上你可以使用任意一种程序语言（除了少数一两关可能会用到点Python的知识），目前总共有33关。挑战地址: Python Chal">
@@ -372,7 +372,7 @@
       
 
       
-        <h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>Python Challenge是一个过关式的解谜站点，使用的是经典在线解谜站点Not Pr0n的模式：根据提示找出下一关的网页地址。和Not Pr0n不同的是，在每一关里你都需要编写程序来寻找答案。虽然这个解谜站点的名字叫做Python Challenge，但事实上你可以使用任意一种程序语言（除了少数一两关可能会用到点Python的知识），目前总共有33关。<br><strong>挑战地址:</strong> <a href="http://www.pythonchallenge.com/" target="_blank" rel="external">Python Challenge</a><br><a id="more"></a> </p>
+        <h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>Python Challenge是一个过关式的解谜站点，使用的是经典在线解谜站点Not Pr0n的模式：根据提示找出下一关的网页地址。和Not Pr0n不同的是，在每一关里你都需要编写程序来寻找答案。虽然这个解谜站点的名字叫做Python Challenge，但事实上你可以使用任意一种程序语言（除了少数一两关可能会用到点Python的知识），目前总共有33关。<br><strong>挑战地址:</strong> <a href="http://www.pythonchallenge.com/" target="_blank" rel="external">Python Challenge</a><br><a id="more"></a></p>
 <h1 id="第0关"><a href="#第0关" class="headerlink" title="第0关"></a><a href="http://www.pythonchallenge.com/pc/def/0.html" target="_blank" rel="external">第0关</a></h1><p>图片上面写着2<sup>38</sup>，用python可以轻松求解，结果为：274877906944。替换掉地址栏的0，得到下一关地址:<br><a href="http://www.pythonchallenge.com/pc/def/274877906944.html" target="_blank" rel="external">http://www.pythonchallenge.com/pc/def/274877906944.html</a></p>
 <h1 id="第1关"><a href="#第1关" class="headerlink" title="第1关"></a><a href="http://www.pythonchallenge.com/pc/def/274877906944.html" target="_blank" rel="external">第1关</a></h1><p>从图中的<strong>K-&gt;M</strong>,<strong>O-&gt;Q</strong>,<strong>E-&gt;G</strong> 容易看出，把字母往后加二得到相应的字母，Y和Z应该是分别对应A和B。接下来对网页下方的字符串进行处理：</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> string</div><div class="line">text = <span class="string">"# 省略字符串"</span></div><div class="line">table = text.maketrans(string.ascii_lowercase,string.ascii_lowercase[<span class="number">2</span>:]+string.ascii_lowercase[:<span class="number">2</span>])</div><div class="line">print(text.translate(table))</div></pre></td></tr></table></figure>
@@ -383,7 +383,7 @@
 <figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">str = <span class="string">"""</span></div><div class="line"># 省略字符串</div><div class="line">"""</div><div class="line">s = set(str)</div><div class="line">d = &#123;&#125;</div><div class="line"><span class="keyword">for</span> i <span class="keyword">in</span> s:</div><div class="line">    d[i]=str.count(i)</div><div class="line">print(sorted(d.items(), key=<span class="keyword">lambda</span> x:x[<span class="number">1</span>]))</div></pre></td></tr></table></figure>
 <p>可以看出出现次数最少的字母为q,t,a,y,e,i,u,l，正好可以拼出单词“equality”，得到下一关地址：<a href="http://www.pythonchallenge.com/pc/def/equality.html" target="_blank" rel="external">http://www.pythonchallenge.com/pc/def/equality.html</a></p>
 <h1 id="第3关"><a href="#第3关" class="headerlink" title="第3关"></a><a href="http://www.pythonchallenge.com/pc/def/equality.html" target="_blank" rel="external">第3关</a></h1><p>题目强调了“EXACTLY”，一个小写字母被<strong>正好</strong>三个大写字母包围，不能多也不能少，依旧是查看网页源码获得字符串，可以用正则表达式进行匹配：</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> re</div><div class="line">text = <span class="string">"""</span></div><div class="line"># 省略字符串</div><div class="line">""" </div><div class="line">print(<span class="string">""</span>.join(re.findall(<span class="string">'[^A-Z][A-Z]&#123;3&#125;([a-z])[A-Z]&#123;3&#125;[^A-Z]'</span>, text)))</div></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> re</div><div class="line">text = <span class="string">"""</span></div><div class="line"># 省略字符串</div><div class="line">"""</div><div class="line">print(<span class="string">""</span>.join(re.findall(<span class="string">'[^A-Z][A-Z]&#123;3&#125;([a-z])[A-Z]&#123;3&#125;[^A-Z]'</span>, text)))</div></pre></td></tr></table></figure>
 <p>这里用到了正则表达式，可以在<a href="http://www.runoob.com/python/python-reg-expressions.html" target="_blank" rel="external">菜鸟教程</a>学习<br>执行结果为：linkedlist，得到下一关地址：<a href="http://www.pythonchallenge.com/pc/def/linkedlist.html" target="_blank" rel="external">http://www.pythonchallenge.com/pc/def/linkedlist.html</a></p>
 <h1 id="第4关"><a href="#第4关" class="headerlink" title="第4关"></a><a href="http://www.pythonchallenge.com/pc/def/linkedlist.html" target="_blank" rel="external">第4关</a></h1><p>将网址上的”.html”改为”.php”，点击图片得到提示“and the next nothing is 44827”，将网址中的”12345”替换为“44827”，很明显，是让你一路替换下去。什么时候停止呢？源码中提示“400 times is more than enough”。</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">from</span> urllib <span class="keyword">import</span> request</div><div class="line"><span class="keyword">import</span> re</div><div class="line">num = <span class="number">12345</span></div><div class="line"><span class="keyword">for</span> i <span class="keyword">in</span> range(<span class="number">400</span>):</div><div class="line">    u = request.urlopen(<span class="string">'http://www.pythonchallenge.com/pc/def/linkedlist.php?nothing=%s'</span>% num)</div><div class="line">    text = u.read().decode(<span class="string">'utf8'</span>)</div><div class="line">    <span class="keyword">try</span>:</div><div class="line">        num = re.search(<span class="string">'and the next nothing is ([0-9]*)'</span>,text).group(<span class="number">1</span>)</div><div class="line">    <span class="keyword">except</span>:</div><div class="line">        print(text)</div><div class="line">        <span class="keyword">break</span></div><div class="line">    print(num)</div></pre></td></tr></table></figure>
@@ -550,7 +550,7 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">2</span>
+              <span class="site-state-item-count">3</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
@@ -558,7 +558,7 @@
           
             <div class="site-state-item site-state-categories">
               <a href="/categories">
-                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-count">2</span>
                 <span class="site-state-item-name">分类</span>
               </a>
             </div>
@@ -567,7 +567,7 @@
           
             <div class="site-state-item site-state-tags">
               <a href="/tags">
-                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-count">3</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>

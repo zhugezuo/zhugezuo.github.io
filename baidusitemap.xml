@@ -4,12 +4,32 @@
 
     
   <url>
-    <loc>http://zhugezuo.xyz/2016/09/04/Python-Challenge-Level-6-10/</loc>
-    <lastmod>2016-09-05T05:35:01.723Z</lastmod>
+    <loc>http://zhugezuo.xyz/2016/09/06/%E5%A6%82%E4%BD%95%E5%9C%A8%E7%94%B5%E8%84%91%E4%B8%8A%E5%90%8C%E6%97%B6%E5%AE%89%E8%A3%85python2%E5%92%8Cpython3/</loc>
+    <lastmod>2016-09-06T08:24:23.079Z</lastmod>
     <data>
         <display>
-        <title>Python Challenge (Level 6-10)</title>
-        <pubTime>2016-09-04T12:18:24.000Z</pubTime>
+        <title>如何在电脑上同时安装python2和python3</title>
+        <pubTime>2016-09-06T06:04:25.000Z</pubTime>
+        
+        <tag>Python</tag>
+         
+         
+           
+             
+              <breadCrumb title="python" url="http://zhugezuo.xyz/categories/python/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://zhugezuo.xyz/2016/09/04/Python-Challenge-Level-0-5/</loc>
+    <lastmod>2016-09-06T00:59:46.303Z</lastmod>
+    <data>
+        <display>
+        <title>Python Challenge (Level 0-5)</title>
+        <pubTime>2016-09-04T01:19:11.000Z</pubTime>
         
         <tag>Python Challenge</tag>
          
@@ -26,12 +46,12 @@
 
     
   <url>
-    <loc>http://zhugezuo.xyz/2016/09/04/Python-Challenge-Level-0-5/</loc>
-    <lastmod>2016-09-05T04:47:18.772Z</lastmod>
+    <loc>http://zhugezuo.xyz/2016/09/04/Python-Challenge-Level-6-10/</loc>
+    <lastmod>2016-09-05T05:35:01.723Z</lastmod>
     <data>
         <display>
-        <title>Python Challenge (Level 0-5)</title>
-        <pubTime>2016-09-04T01:19:11.000Z</pubTime>
+        <title>Python Challenge (Level 6-10)</title>
+        <pubTime>2016-09-04T12:18:24.000Z</pubTime>
         
         <tag>Python Challenge</tag>
          
