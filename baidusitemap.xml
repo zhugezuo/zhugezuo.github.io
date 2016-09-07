@@ -4,8 +4,58 @@
 
     
   <url>
+    <loc>http://zhugezuo.xyz/2016/09/04/Python-Challenge-Level-6-10/</loc>
+    <lastmod>2016-09-07T09:21:05.762Z</lastmod>
+    <data>
+        <display>
+        <title>Python Challenge (Level 6-10)</title>
+        <pubTime>2016-09-04T12:18:24.000Z</pubTime>
+        
+        <tag>Python</tag>
+         
+        <tag>Python Challenge</tag>
+         
+         
+           
+             
+              <breadCrumb title="Python" url="http://zhugezuo.xyz/categories/Python/"/>
+          
+             
+              <breadCrumb title="Python Challenge" url="http://zhugezuo.xyz/categories/Python/Python-Challenge/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://zhugezuo.xyz/2016/09/04/Python-Challenge-Level-0-5/</loc>
+    <lastmod>2016-09-07T09:20:55.809Z</lastmod>
+    <data>
+        <display>
+        <title>Python Challenge (Level 0-5)</title>
+        <pubTime>2016-09-04T01:19:11.000Z</pubTime>
+        
+        <tag>Python</tag>
+         
+        <tag>Python Challenge</tag>
+         
+         
+           
+             
+              <breadCrumb title="Python" url="http://zhugezuo.xyz/categories/Python/"/>
+          
+             
+              <breadCrumb title="Python Challenge" url="http://zhugezuo.xyz/categories/Python/Python-Challenge/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://zhugezuo.xyz/2016/09/06/%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0python2%E5%92%8Cpython3%E7%9A%84%E5%85%B1%E5%AD%98/</loc>
-    <lastmod>2016-09-07T09:14:22.053Z</lastmod>
+    <lastmod>2016-09-07T09:20:39.166Z</lastmod>
     <data>
         <display>
         <title>如何实现python2和python3的共存</title>
@@ -16,57 +66,7 @@
          
            
              
-              <breadCrumb title="python" url="http://zhugezuo.xyz/categories/python/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://zhugezuo.xyz/2016/09/04/Python-Challenge-Level-0-5/</loc>
-    <lastmod>2016-09-06T09:41:39.229Z</lastmod>
-    <data>
-        <display>
-        <title>Python Challenge (Level 0-5)</title>
-        <pubTime>2016-09-04T01:19:11.000Z</pubTime>
-        
-        <tag>python</tag>
-         
-        <tag>Python Challenge</tag>
-         
-         
-           
-             
-              <breadCrumb title="python" url="http://zhugezuo.xyz/categories/python/"/>
-          
-             
-              <breadCrumb title="Python Challenge" url="http://zhugezuo.xyz/categories/python/Python-Challenge/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://zhugezuo.xyz/2016/09/04/Python-Challenge-Level-6-10/</loc>
-    <lastmod>2016-09-06T09:41:31.889Z</lastmod>
-    <data>
-        <display>
-        <title>Python Challenge (Level 6-10)</title>
-        <pubTime>2016-09-04T12:18:24.000Z</pubTime>
-        
-        <tag>python</tag>
-         
-        <tag>Python Challenge</tag>
-         
-         
-           
-             
-              <breadCrumb title="python" url="http://zhugezuo.xyz/categories/python/"/>
-          
-             
-              <breadCrumb title="Python Challenge" url="http://zhugezuo.xyz/categories/python/Python-Challenge/"/>
+              <breadCrumb title="Python" url="http://zhugezuo.xyz/categories/Python/"/>
           
         </display>
     </data>
