@@ -4,6 +4,51 @@
 
     
   <url>
+    <loc>http://zhugezuo.xyz/2016/09/07/Win10%E4%B8%8B%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85Scrapy/</loc>
+    <lastmod>2016-09-08T03:16:35.970Z</lastmod>
+    <data>
+        <display>
+        <title>Win10下如何安装Scrapy</title>
+        <pubTime>2016-09-07T14:04:25.000Z</pubTime>
+        
+        <tag>Python</tag>
+         
+        <tag>Scrapy</tag>
+         
+         
+           
+             
+              <breadCrumb title="Python" url="http://zhugezuo.xyz/categories/Python/"/>
+          
+             
+              <breadCrumb title="Scrapy" url="http://zhugezuo.xyz/categories/Python/Scrapy/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://zhugezuo.xyz/2016/09/06/%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0python2%E5%92%8Cpython3%E7%9A%84%E5%85%B1%E5%AD%98/</loc>
+    <lastmod>2016-09-08T01:47:23.106Z</lastmod>
+    <data>
+        <display>
+        <title>如何实现python2和python3的共存</title>
+        <pubTime>2016-09-06T06:04:25.000Z</pubTime>
+        
+        <tag>Python</tag>
+         
+         
+           
+             
+              <breadCrumb title="Python" url="http://zhugezuo.xyz/categories/Python/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://zhugezuo.xyz/2016/09/04/Python-Challenge-Level-6-10/</loc>
     <lastmod>2016-09-07T09:21:05.762Z</lastmod>
     <data>
@@ -47,26 +92,6 @@
           
              
               <breadCrumb title="Python Challenge" url="http://zhugezuo.xyz/categories/Python/Python-Challenge/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://zhugezuo.xyz/2016/09/06/%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0python2%E5%92%8Cpython3%E7%9A%84%E5%85%B1%E5%AD%98/</loc>
-    <lastmod>2016-09-07T09:20:39.166Z</lastmod>
-    <data>
-        <display>
-        <title>如何实现python2和python3的共存</title>
-        <pubTime>2016-09-06T06:04:25.000Z</pubTime>
-        
-        <tag>Python</tag>
-         
-         
-           
-             
-              <breadCrumb title="Python" url="http://zhugezuo.xyz/categories/Python/"/>
           
         </display>
     </data>

@@ -4,6 +4,27 @@
   
     
     <entry>
+      <title><![CDATA[Win10下如何安装Scrapy]]></title>
+      <url>http://zhugezuo.xyz/2016/09/07/Win10%E4%B8%8B%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85Scrapy/</url>
+      <content type="html"><![CDATA[<h1 id="安装介绍"><a href="#安装介绍" class="headerlink" title="安装介绍"></a>安装介绍</h1><p>Windows下部署Scrapy比较麻烦，需要装很多依赖包，Scrapy目前只支持到Python27，我的操作系统是Windows10，64位，下面就来详细介绍一下如何在WIN10下安装Scrapy</p>
+<h1 id="安装依赖包"><a href="#安装依赖包" class="headerlink" title="安装依赖包"></a>安装依赖包</h1><p>Windows下，安装Scrapy前需要先安装以下依赖包：</p>
+<ul>
+<li><em>lxml:</em> <a href="https://pypi.python.org/pypi/lxml/3.6.0" target="_blank" rel="external">下载地址</a><br>根据操作系统选择<a href="https://pypi.python.org/packages/be/80/1d8839496d83ef5e90d63af215730785b8b8ce00d43c64960662adb92ecc/lxml-3.6.0.win-amd64-py2.7.exe#md5=ff6fc39c647241afe7f31490c5b7a61c" target="_blank" rel="external">lxml-3.6.0.win-amd64-py2.7.exe</a></li>
+<li><em>pywin32:</em> <a href="https://sourceforge.net/projects/pywin32/files/pywin32/Build%20220" target="_blank" rel="external">下载地址</a><br>根据操作系统选择<a href="http://downloads.sourceforge.net/project/pywin32/pywin32/Build%20220/pywin32-220.win-amd64-py2.7.exe?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fpywin32%2Ffiles%2Fpywin32%2FBuild%2520220%2F&amp;ts=1473259515&amp;use_mirror=nchc" target="_blank" rel="external">pywin32-220.win-amd64-py2.7.exe</a></li>
+<li><em>Twisted:</em> <a href="https://twistedmatrix.com/Releases/Twisted/15.4/" target="_blank" rel="external">下载地址</a><br>根据操作系统选择<a href="https://twistedmatrix.com/Releases/Twisted/15.4/Twisted-15.4.0.win-amd64-py2.7.exe" target="_blank" rel="external">Twisted-15.4.0.win-amd64-py2.7.exe</a></li>
+</ul>
+<p>下面的<em>pyOpenSSL</em>和<em>zope.interface</em>是<em>Twisted</em>的依赖包，可以自动安装，如果失败，再手动下载安装</p>
+<ul>
+<li><em>pyOpenSSL:</em> <a href="https://pypi.python.org/pypi/pyOpenSSL/0.13.1" target="_blank" rel="external">下载地址</a><br>根据操作系统选择<a href="https://pypi.python.org/packages/a9/3f/65276ba1b19cbd678a3f3876cd7fa739fd9fd23e2f87f08668e701b9cb60/pyOpenSSL-0.13.1.win-amd64-py2.7.exe#md5=223cc4ab7439818ccaf1bf7f51736dc8" target="_blank" rel="external">pyOpenSSL-0.13.1.win-amd64-py2.7.exe</a></li>
+<li><em>zope.interface:</em> <a href="https://pypi.python.org/pypi/zope.interface/4.3.2" target="_blank" rel="external">下载地址</a><br>根据操作系统选择<a href="https://pypi.python.org/packages/d7/54/3e2c6ed5eee78d0929edb8982188632d75e1b09d3cc19395f04d26ef5da6/zope.interface-4.3.2.win-amd64-py2.7.exe#md5=9c4c19d72a3f8857c223e60dbc32c301" target="_blank" rel="external">zope.interface-4.3.2.win-amd64-py2.7.exe</a></li>
+</ul>
+<h1 id="安装Scrapy"><a href="#安装Scrapy" class="headerlink" title="安装Scrapy"></a>安装Scrapy</h1><p>执行命令<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">pip install Scrapy</div></pre></td></tr></table></figure></p>
+<h1 id="查看"><a href="#查看" class="headerlink" title="查看"></a>查看</h1><p>执行命令<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">scrapy version</div></pre></td></tr></table></figure></p>
+<p>能够看到Scrapy版本就表示安装完成了<br><img src="http://i2.buimg.com/567571/d1b2d00b3d6fdf46.png" alt=""></p>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[如何实现python2和python3的共存]]></title>
       <url>http://zhugezuo.xyz/2016/09/06/%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0python2%E5%92%8Cpython3%E7%9A%84%E5%85%B1%E5%AD%98/</url>
       <content type="html"><![CDATA[<p>大家都知道，目前python有2.x版本和3.x版本，python3相比python2有很大的改进，很多人都会选择python3入门，但是由于很多环境自带的都是python2，而且很多库也只支持python2，所以我们经常会在python2和python3上跑不同的程序。下面就来介绍如何在同一台电脑上安装python2和python3，并且相互独立。<br><a id="more"></a></p>
@@ -12,7 +33,7 @@
 <li>将两个安装路径以及路径下的Scripts目录都添加进环境变量PATH中：</li>
 </ol>
 <blockquote>
-<p>;C:\Python\Python3\Scripts\;C:\Python\Python3\;C:\Python\Python2\Scripts\;C:\Python\Python2\</p>
+<p>;C:\Python3\Scripts\;C:\Python3\;C:\Python2\Scripts\;C:\Python2\</p>
 </blockquote>
 <ol>
 <li>将Python2目录下的python.exe修改为python2.exe</li>
