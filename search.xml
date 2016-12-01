@@ -4,6 +4,21 @@
   
     
     <entry>
+      <title><![CDATA[Redis安装]]></title>
+      <url>http://zhugezuo.xyz/2016/12/01/Redis%E5%AE%89%E8%A3%85/</url>
+      <content type="html"><![CDATA[<h1 id="首先安装gcc和tcl"><a href="#首先安装gcc和tcl" class="headerlink" title="首先安装gcc和tcl"></a>首先安装gcc和tcl</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">yum install gcc -y</div><div class="line">yum install tcl -y</div></pre></td></tr></table></figure>
+<h1 id="下载并解压Redis"><a href="#下载并解压Redis" class="headerlink" title="下载并解压Redis"></a>下载并解压Redis</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">wget http://download.redis.io/releases/redis-3.2.5.tar.gz</div><div class="line">tar xzf redis-3.2.5.tar.gz</div><div class="line">cd redis-3.2.5</div></pre></td></tr></table></figure>
+<h1 id="安装Redis"><a href="#安装Redis" class="headerlink" title="安装Redis"></a>安装Redis</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">make</div><div class="line">make install</div></pre></td></tr></table></figure>
+<p>出现如下信息，表示安装成功<br><img src="http://i1.piimg.com/567571/2d0147a115983a37.png" alt=""></p>
+<h1 id="启动redis-server"><a href="#启动redis-server" class="headerlink" title="启动redis-server"></a>启动redis-server</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">./src/redis-server</div></pre></td></tr></table></figure>
+<p><img src="http://i1.piimg.com/567571/37a63378312f3c01.png" alt=""></p>
+<h1 id="启动客户端"><a href="#启动客户端" class="headerlink" title="启动客户端"></a>启动客户端</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">./src/redis-cli</div></pre></td></tr></table></figure>
+<p><img src="http://p1.bpimg.com/567571/4703b667101312dd.png" alt=""></p>
+<h1 id="如果没安装gcc和tcl，会出现报错"><a href="#如果没安装gcc和tcl，会出现报错" class="headerlink" title="如果没安装gcc和tcl，会出现报错"></a>如果没安装gcc和tcl，会出现报错</h1><p>make: cc: Command not found make: <em>*</em> [adlist.o] Error 127<br>…<br>You need tcl 8.5 or newer in order to run the Redis test</p>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[Win10下如何安装Scrapy]]></title>
       <url>http://zhugezuo.xyz/2016/09/07/Win10%E4%B8%8B%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85Scrapy/</url>
       <content type="html"><![CDATA[<h1 id="安装介绍"><a href="#安装介绍" class="headerlink" title="安装介绍"></a>安装介绍</h1><p>Windows下部署Scrapy比较麻烦，需要装很多依赖包，Scrapy目前只支持到Python27，我的操作系统是Windows10，64位，下面就来详细介绍一下如何在WIN10下安装Scrapy</p>
